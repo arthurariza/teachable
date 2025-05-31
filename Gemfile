@@ -60,3 +60,10 @@ group :development, :test do
   gem "rspec-rails"
   gem "factory_bot_rails"
 end
+
+group :development do
+  gem "hotwire-spark"
+  gem "rubocop-rspec"
+  gem "rubocop-thread_safety"
+  gem "rubocop-factory_bot"
+end
