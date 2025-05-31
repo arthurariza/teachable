@@ -52,3 +52,11 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
+
+group :development, :test do
+  gem "bullet"
+  gem "dotenv-rails"
+  gem "faker"
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+end
