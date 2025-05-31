@@ -1,0 +1,7 @@
+--database=sqlite3
+--javascript=esbuild
+--css=tailwind
+--skip-jbuilder
+--skip-spring
+--skip-bootsnap
+--skip-test
