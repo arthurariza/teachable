@@ -11,10 +11,10 @@ class Course::ImportService < ApplicationService
 
     build_courses_from_page(page_one)
 
-    remaining_pages_from(page_one).each do |page|
-      result = get_page(page)
+    remaining_pages_from(page_one).each do |page_number|
+      page = get_page(page_number)
 
-      build_courses_from_page(result)
+      build_courses_from_page(page)
     end
 
     upsert_courses

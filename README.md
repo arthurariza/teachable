@@ -9,6 +9,7 @@ cd teachable
 ### 2. Copy .env template
 ```
 cp .env.template .env
+cp .env.template .env.test
 ```
 `Make sure to fill in the TEACHABLE_API_KEY`
 
@@ -28,7 +29,7 @@ docker compose exec app rails db:prepare
 
 ## How To Run Specs
 ```
-docker compose exec app rspec -fd
+docker compose exec app rspec
 ```
 ## Stop Containers Running In Background
 ```
