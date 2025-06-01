@@ -1,0 +1,101 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://developers.teachable.com/v1/courses/2002430/enrollments?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Apikey:
+      - 7JbSA3ep6XOMV3t8t7QXuXq9HS79Dwnr
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2025 21:29:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"42067b15db1964b1f9ece048121d7553"
+      Ratelimit-Limit:
+      - '360'
+      Ratelimit-Remaining:
+      - '359'
+      Ratelimit-Reset:
+      - '49'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - __cf_bm=2p9gcbNMfNouPcPq.j2Of1c7HfHtO43wUpvwW5DuizA-1748813351-1.0.1.1-7E7UuLQat.msQHhegS_oDl0k3RNDJ1.rzZIolwBIyyB0e9lVhkJ6B0LxmR66ohnsyo5i_MwcyBi9PntIqkb6Wygxs1xvh_Oosr43p3BWUdA;
+        path=/; expires=Sun, 01-Jun-25 21:59:11 GMT; domain=.teachable.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfruid=eda5e6177fb602434114907a8d7b23e5338f83ef-1748813351; path=/; domain=.teachable.com;
+        HttpOnly; Secure; SameSite=None
+      - _cfuvid=67K9LSpbNovyWJSs7UqcSxRrJ1Ak9.yJw7rN.k5rq6M-1748813351864-0.0.1.1-604800000;
+        path=/; domain=.teachable.com; HttpOnly; Secure; SameSite=None
+      - ahoy_visit=74bef3ef-6fa7-4fe1-8006-9f23278fb2dc; path=/; expires=Mon, 02 Jun
+        2025 01:29:11 GMT; SameSite=Lax; secure
+      - ahoy_visitor=cb285767-33ec-470d-b1d6-74bf3a369fef; path=/; expires=Tue, 01
+        Jun 2027 21:29:11 GMT; SameSite=Lax; secure
+      Strict-Transport-Security:
+      - max-age=0
+      Vary:
+      - Accept
+      Via:
+      - kong/2.8.4.13-enterprise-edition
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kong-Proxy-Latency:
+      - '2'
+      X-Kong-Request-Id:
+      - 82344f52bf300f6b175eee1d4a7c4030
+      X-Kong-Upstream-Latency:
+      - '78'
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Ratelimit-Limit-Minute:
+      - '360'
+      X-Ratelimit-Remaining-Minute:
+      - '359'
+      X-Request-Id:
+      - b9f8a4b725de6e8751173e5c34921b1f
+      X-Runtime:
+      - '0.069353'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Speculation-Rules:
+      - '"/cdn-cgi/speculation"'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 9491ce16894400e4-FOR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"enrollments":[{"user_id":108775126,"enrolled_at":"2024-07-25T14:21:03Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":108775125,"enrolled_at":"2024-07-25T14:21:01Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":108775124,"enrolled_at":"2024-07-25T14:20:59Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":108775122,"enrolled_at":"2024-07-25T14:20:58Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":108775121,"enrolled_at":"2024-07-25T14:20:54Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":88958558,"enrolled_at":"2024-04-03T23:21:37Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":104683905,"enrolled_at":"2024-03-29T16:41:30Z","completed_at":"2024-03-29T16:50:33Z","percent_complete":100,"expires_at":null},{"user_id":89125316,"enrolled_at":"2023-01-27T16:35:43Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125315,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125160,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125159,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125158,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125313,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125314,"enrolled_at":"2023-01-27T16:35:42Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125157,"enrolled_at":"2023-01-27T16:35:41Z","completed_at":null,"percent_complete":0,"expires_at":null},{"user_id":89125156,"enrolled_at":"2023-01-27T16:35:41Z","completed_at":null,"percent_complete":0,"expires_at":null}],"meta":{"total":16,"page":1,"from":1,"to":16,"per_page":0,"number_of_pages":1}}'
+  recorded_at: Sun, 01 Jun 2025 21:29:11 GMT
+recorded_with: VCR 6.3.1
