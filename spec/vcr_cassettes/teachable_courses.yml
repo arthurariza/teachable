@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://developers.teachable.com/v1/courses?is_published=true&page=1
+    uri: https://developers.teachable.com/v1/courses?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 01 Jun 2025 18:42:45 GMT
+      - Sun, 01 Jun 2025 19:20:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,27 +33,27 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Etag:
-      - W/"12350a96cfab60baefa21662cb681273"
+      - W/"ad14172bdcc0abef99e9c13bf16eeb50"
       Ratelimit-Limit:
       - '360'
       Ratelimit-Remaining:
       - '359'
       Ratelimit-Reset:
-      - '15'
+      - '3'
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Set-Cookie:
-      - __cf_bm=5MsbhG6ODor4gQLFoyUYeqtznn9mUaFELRU18aVnNCI-1748803365-1.0.1.1-X3E2JzPXkqGdaoLUtYwAKkf6hzHj0xbIu3Ae0N96k_PqgasNY19CbxVZVZKcF.h.6H6kBDO763z_x7QD8QJaITUm6QjTielpvSIk062oi8E;
-        path=/; expires=Sun, 01-Jun-25 19:12:45 GMT; domain=.teachable.com; HttpOnly;
+      - __cf_bm=EQWi3tOgxifyHKQkcQDV_meXAJ4EI7FLLvAv3pGjdRU-1748805657-1.0.1.1-F8PAEYSAODICBXdsrKkwPAFLqmeYAda6iMwLCwGk48Q4hv5.dG6mRxcnJKkQlHCRLhlzSC4j8jrgd_xJHRPCQqAjapW7o0Q63ZawuwSHfyA;
+        path=/; expires=Sun, 01-Jun-25 19:50:57 GMT; domain=.teachable.com; HttpOnly;
         Secure; SameSite=None
-      - __cfruid=d9dacf48fec452405061176c672aff46ed939ff5-1748803365; path=/; domain=.teachable.com;
+      - __cfruid=4cc09d6292604c278280d778e2d5054195a0ef08-1748805657; path=/; domain=.teachable.com;
         HttpOnly; Secure; SameSite=None
-      - _cfuvid=xTbLPYDRbjA6omfku29mM0N_T1f6wOLXbGJsk5ZFaZQ-1748803365648-0.0.1.1-604800000;
+      - _cfuvid=V7waXP0d7fuX6xZMDPhOkt703rZ3o3_eegMN6UPwTlQ-1748805657425-0.0.1.1-604800000;
         path=/; domain=.teachable.com; HttpOnly; Secure; SameSite=None
-      - ahoy_visit=ce2d4107-8b7f-4032-a361-491b8d099ddb; path=/; expires=Sun, 01 Jun
-        2025 22:42:45 GMT; SameSite=Lax; secure
-      - ahoy_visitor=446c7330-2b58-4f7f-9cbd-07110153b83f; path=/; expires=Tue, 01
-        Jun 2027 18:42:45 GMT; SameSite=Lax; secure
+      - ahoy_visit=323f670c-361c-4d5a-99bf-c694cb636b66; path=/; expires=Sun, 01 Jun
+        2025 23:20:57 GMT; SameSite=Lax; secure
+      - ahoy_visitor=9c7cdc06-04bd-428a-99cf-112b9826cd40; path=/; expires=Tue, 01
+        Jun 2027 19:20:57 GMT; SameSite=Lax; secure
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -67,11 +67,11 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Kong-Proxy-Latency:
-      - '2'
+      - '1'
       X-Kong-Request-Id:
-      - 1f1ef33eb60c882440641e5b8ac1300d
+      - d2cf3b21bf59797b654d59533bf41556
       X-Kong-Upstream-Latency:
-      - '150'
+      - '76'
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Ratelimit-Limit-Minute:
@@ -79,19 +79,24 @@ http_interactions:
       X-Ratelimit-Remaining-Minute:
       - '359'
       X-Request-Id:
-      - 0f600f0b56594487d0b829e702a6a895
+      - 695ebfe3b289a657c6cca7e48304fd53
       X-Runtime:
-      - '0.143889'
+      - '0.069642'
       X-Xss-Protection:
       - 1; mode=block
       Cf-Cache-Status:
       - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/csp-reporting.cloudflare.com\/cdn-cgi\/script_monitor\/report?m=qYLnNZvp03dFzJWDwHH54QeX60qM9E6r0QhriJ5JDNI-1748805657-1.0.1.1-mfzYUEePqxwh29TVzxYuZlZeHhR.SmokUcTx28geKpi5a09zVmr4mukef.QjyowbVPOH_Z6ym9AuHX3C59bF48CnYdWZwnT9yHgiCiz3H22KKwZfvzFo2iWgdh07utrJIDy_IuQ5B_xFrTyx_ELCEZfgMq4HDSoM5doEKgbj0Gg"}],"group":"cf-csp-endpoint","max_age":86400}'
+      Content-Security-Policy-Report-Only:
+      - script-src 'none'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=qYLnNZvp03dFzJWDwHH54QeX60qM9E6r0QhriJ5JDNI-1748805657-1.0.1.1-mfzYUEePqxwh29TVzxYuZlZeHhR.SmokUcTx28geKpi5a09zVmr4mukef.QjyowbVPOH_Z6ym9AuHX3C59bF48CnYdWZwnT9yHgiCiz3H22KKwZfvzFo2iWgdh07utrJIDy_IuQ5B_xFrTyx_ELCEZfgMq4HDSoM5doEKgbj0Gg;
+        report-to cf-csp-endpoint
       Speculation-Rules:
       - '"/cdn-cgi/speculation"'
       Server:
       - cloudflare
       Cf-Ray:
-      - 9490da46ac3af633-FOR
+      - 9491123c2eecf630-FOR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -100,8 +105,11 @@ http_interactions:
         Concerns","heading":"Grow Your Knowledge of Trees and Arboreous Concerns -
         Learn From the Expert!","is_published":true,"image_url":"https://cdn.filestackcontent.com/HfhcrIRZKEyvND8blEXA"},{"id":2002431,"description":null,"name":"Mushroom
         Madness","heading":"Unlock the Secrets of Mushroom Foraging with Mushroom
-        Madness","is_published":true,"image_url":"https://cdn.filestackcontent.com/MKdUddC0R9iLDP27yF1L"},{"id":2002436,"description":null,"name":"Herbal
+        Madness","is_published":true,"image_url":"https://cdn.filestackcontent.com/MKdUddC0R9iLDP27yF1L"},{"id":2002434,"description":null,"name":"Flower
+        Buddies","heading":"Unlock the Joy of Gardening with Flower Buddies","is_published":false,"image_url":"https://cdn.filestackcontent.com/qBILoskzSVi5XDiCUUFz"},{"id":2002435,"description":null,"name":"Growing
+        Delicious Heirloom Tomatoes","heading":"Grow your own flavorful heirlooms
+        with our easy-to-follow online course","is_published":false,"image_url":"https://cdn.filestackcontent.com/yZk8KM8KQrOk2VLWnVGi"},{"id":2002436,"description":null,"name":"Herbal
         Teas \u0026 Other Garden Tinctures","heading":"Brew your own natural remedies
-        with Herbal Teas \u0026amp; Other Garden Tinctures","is_published":true,"image_url":"https://cdn.filestackcontent.com/4PhkBhwMS0q1e4yCkoVO"}],"meta":{"total":3,"page":1,"from":1,"to":3,"per_page":20,"number_of_pages":1}}'
-  recorded_at: Sun, 01 Jun 2025 18:42:45 GMT
+        with Herbal Teas \u0026amp; Other Garden Tinctures","is_published":true,"image_url":"https://cdn.filestackcontent.com/4PhkBhwMS0q1e4yCkoVO"}],"meta":{"total":5,"page":1,"from":1,"to":5,"per_page":20,"number_of_pages":1}}'
+  recorded_at: Sun, 01 Jun 2025 19:20:57 GMT
 recorded_with: VCR 6.3.1
