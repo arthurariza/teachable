@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://developers.teachable.com/v1/users?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Apikey:
+      - 7JbSA3ep6XOMV3t8t7QXuXq9HS79Dwnr
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2025 20:34:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"38f01c89cd91993a4eca37e740b8c586"
+      Ratelimit-Limit:
+      - '360'
+      Ratelimit-Remaining:
+      - '359'
+      Ratelimit-Reset:
+      - '17'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - __cf_bm=cKNfoX.XIr.a2jznaezO_V_rq6jS3Et4Y3TppclPI5o-1748810083-1.0.1.1-dXqzNVRYcnJOVBsdrotHEy1CgEzDxl6QnGi1.ruAwLct5E2.9aOVVKapOBu2z5KZx34roA46Ix2L852ZHTcsrZwQ6G.fuufxA1KkAJTB4mo;
+        path=/; expires=Sun, 01-Jun-25 21:04:43 GMT; domain=.teachable.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfruid=e3e679e0dabce9f307775a3aca9c6ed76a5c8321-1748810083; path=/; domain=.teachable.com;
+        HttpOnly; Secure; SameSite=None
+      - _cfuvid=sob4Z7QH.woy2awk_IXlV3_3rlyMzbJQasv01P_W6IU-1748810083648-0.0.1.1-604800000;
+        path=/; domain=.teachable.com; HttpOnly; Secure; SameSite=None
+      - ahoy_visit=bd9a180d-111f-4537-af42-9702c7c6faf9; path=/; expires=Mon, 02 Jun
+        2025 00:34:43 GMT; SameSite=Lax; secure
+      - ahoy_visitor=9aa03308-550e-42a4-962a-e84d4fc45e5f; path=/; expires=Tue, 01
+        Jun 2027 20:34:43 GMT; SameSite=Lax; secure
+      Strict-Transport-Security:
+      - max-age=0
+      Vary:
+      - Accept
+      Via:
+      - kong/2.8.4.13-enterprise-edition
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kong-Proxy-Latency:
+      - '1'
+      X-Kong-Request-Id:
+      - e514d7679651f662d1795e1a6d35e46a
+      X-Kong-Upstream-Latency:
+      - '110'
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Ratelimit-Limit-Minute:
+      - '360'
+      X-Ratelimit-Remaining-Minute:
+      - '359'
+      X-Request-Id:
+      - 0f733fc0e7af4dd435e9e6b87cc4e702
+      X-Runtime:
+      - '0.098849'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Speculation-Rules:
+      - '"/cdn-cgi/speculation"'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 94917e4bd99400da-FOR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ1c2VycyI6W3siZW1haWwiOiJrcmlzdGluLm1vc2VyQHRlYWNoYWJsZS5jb20iLCJuYW1lIjoiTXMuIEZyaXp6bGUiLCJpZCI6ODg5NTg1NTh9LHsiZW1haWwiOiJ2YWxlcmllZnJpenpsZUB0ZXN0LmNvbSIsIm5hbWUiOiJWYWxlcmllIEZyaXp6bGUiLCJpZCI6ODkxMjUxNTZ9LHsiZW1haWwiOiJ3YW5kYWxpQHRlc3QuY29tIiwibmFtZSI6IldhbmRhIExpIiwiaWQiOjg5MTI1MTU3fSx7ImVtYWlsIjoibXJ0b2FkQHRlc3QuY29tIiwibmFtZSI6Ik1yLiBUb2FkIiwiaWQiOjg5MTI1MTU4fSx7ImVtYWlsIjoibXJmcm9nQHRlc3QuY29tIiwibmFtZSI6Ik1yLiBGcm9nIiwiaWQiOjg5MTI1MTU5fSx7ImVtYWlsIjoiYXJub2xkcGVybHN0ZWluQHRlc3QuY29tIiwibmFtZSI6IkFybm9sZCBQZXJsc3RlaW4iLCJpZCI6ODkxMjUxNjB9LHsiZW1haWwiOiJrZWVzaGFmcmFua2xpbkB0ZXN0LmNvbSIsIm5hbWUiOiJLZWVzaGEgRnJhbmtsaW4iLCJpZCI6ODkxMjUzMTN9LHsiZW1haWwiOiJjYXJsb3NyYW1vbkB0ZXN0LmNvbSIsIm5hbWUiOiJDYXJsb3MgUmFtw7NuIiwiaWQiOjg5MTI1MzE0fSx7ImVtYWlsIjoidGltd3JpZ2h0QHRlc3QuY29tIiwibmFtZSI6IlRpbSBXcmlnaHQiLCJpZCI6ODkxMjUzMTV9LHsiZW1haWwiOiJqeW90aWthdXJAdGVzdC5jb20iLCJuYW1lIjoiSnlvdGkgS2F1ciIsImlkIjo4OTEyNTMxNn0seyJlbWFpbCI6InBob2ViZXRlcmVzZUB0ZXN0LmNvbSIsIm5hbWUiOiJQaG9lYmUgVGVyZXNlIiwiaWQiOjg5MTI2MDM3fSx7ImVtYWlsIjoibWVyZWRpdGgubWFya3NAdGVhY2hhYmxlLmNvbSIsIm5hbWUiOiJNZXJlZGl0aCBNYXJrcyIsImlkIjo4OTEyNjM0N30seyJlbWFpbCI6ImR5bGFuLWNydXpAbGl2ZS5jb20iLCJuYW1lIjoiZHlsYW4iLCJpZCI6MTA0NjgzOTA1fSx7ImVtYWlsIjoiaHVhLmFsdmluQHRlc3QuY29tIiwibmFtZSI6Ikh1YSBBbHZpbiIsImlkIjoxMDg3NzQ5MjJ9LHsiZW1haWwiOiJsdW5hLmp1bmVAdGVzdC5jb20iLCJuYW1lIjoiTHVuYSBKdW5lIiwiaWQiOjEwODc3NDkyM30seyJlbWFpbCI6ImMuc2hyZXlhQHRlc3QuY29tIiwibmFtZSI6IkNsYXVkZXR0ZSBTaHJleWEiLCJpZCI6MTA4Nzc0OTI0fSx7ImVtYWlsIjoiYW5qYWxpLmJldmVybHlAdGVzdC5jb20iLCJuYW1lIjoiQW5qYWxpIEJldmVybHkiLCJpZCI6MTA4Nzc0OTI1fSx7ImVtYWlsIjoiZWRnYXIueGlhbmduaW5nQHRlc3QuY29tIiwibmFtZSI6IkVkZ2FyIFhpYW5nbmluZyIsImlkIjoxMDg3NzQ5MjZ9LHsiZW1haWwiOiJncmVueS5qYWtvYkB0ZXN0LmNvbSIsIm5hbWUiOiJHcmVueSBKYWtvYiIsImlkIjoxMDg3NzUwNjB9LHsiZW1haWwiOiJzYW5naGFuLmRlbHN5QHRlc3QuY29tIiwibmFtZSI6IlNhbmdoYW4gRGVsc3kiLCJpZCI6MTA4Nzc1MDYxfV0sIm1ldGEiOnsicGFnZSI6MSwidG90YWwiOjMyLCJudW1iZXJfb2ZfcGFnZXMiOjIsImZyb20iOjEsInRvIjoyMCwicGVyX3BhZ2UiOjIwfX0=
+  recorded_at: Sun, 01 Jun 2025 20:34:43 GMT
+recorded_with: VCR 6.3.1
