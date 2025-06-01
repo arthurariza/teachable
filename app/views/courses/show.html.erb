@@ -1,5 +1,11 @@
 <p style="color: green"><%= notice %></p>
 <%= render @course %>
-<div>
-  <%= link_to "Back to courses", courses_path %>
-</div>
+<h2 class="my-2 font-bold">Enrollments</h2>
+<ul class="space-y-2">
+  <% @course.enrollments.each do |enrollment| %>
+    <li>
+      User: <%= enrollment.user.name %>
+      Email: <%= enrollment.user.email %>
+    </li>
+  <% end %>
+</ul>

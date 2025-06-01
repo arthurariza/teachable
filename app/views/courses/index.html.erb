@@ -1,11 +1,13 @@
 <p style="color: green"><%= notice %></p>
 <% content_for :title, "Courses" %>
-<h1>Courses</h1>
+<h1 class="text-2xl font-bold">Courses</h1>
 <div id="courses">
   <% @courses.each do |course| %>
-    <%= render course %>
-    <p>
-      <%= link_to "Show this course", course %>
-    </p>
+    <div class="mb-4">
+      <%= render course %>
+      <p>
+        <%= link_to "Show this course", course %>
+      </p>
+    </div>
   <% end %>
 </div>

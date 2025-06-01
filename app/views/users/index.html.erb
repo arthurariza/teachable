@@ -1,11 +1,13 @@
 <p style="color: green"><%= notice %></p>
 <% content_for :title, "Users" %>
-<h1>Users</h1>
+<h1 class="text-2xl font-bold">Users</h1>
 <div id="users">
   <% @users.each do |user| %>
-    <%= render user %>
-    <p>
-      <%= link_to "Show this user", user %>
-    </p>
+    <div class="mb-4">
+      <%= render user %>
+      <p>
+        <%= link_to "Show this user", user %>
+      </p>
+    </div>
   <% end %>
 </div>
