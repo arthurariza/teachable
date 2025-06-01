@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://developers.teachable.com/v1/courses?is_published=true&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Apikey:
+      - 7JbSA3ep6XOMV3t8t7QXuXq9HS79Dwnr
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2025 18:42:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"12350a96cfab60baefa21662cb681273"
+      Ratelimit-Limit:
+      - '360'
+      Ratelimit-Remaining:
+      - '359'
+      Ratelimit-Reset:
+      - '15'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - __cf_bm=5MsbhG6ODor4gQLFoyUYeqtznn9mUaFELRU18aVnNCI-1748803365-1.0.1.1-X3E2JzPXkqGdaoLUtYwAKkf6hzHj0xbIu3Ae0N96k_PqgasNY19CbxVZVZKcF.h.6H6kBDO763z_x7QD8QJaITUm6QjTielpvSIk062oi8E;
+        path=/; expires=Sun, 01-Jun-25 19:12:45 GMT; domain=.teachable.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfruid=d9dacf48fec452405061176c672aff46ed939ff5-1748803365; path=/; domain=.teachable.com;
+        HttpOnly; Secure; SameSite=None
+      - _cfuvid=xTbLPYDRbjA6omfku29mM0N_T1f6wOLXbGJsk5ZFaZQ-1748803365648-0.0.1.1-604800000;
+        path=/; domain=.teachable.com; HttpOnly; Secure; SameSite=None
+      - ahoy_visit=ce2d4107-8b7f-4032-a361-491b8d099ddb; path=/; expires=Sun, 01 Jun
+        2025 22:42:45 GMT; SameSite=Lax; secure
+      - ahoy_visitor=446c7330-2b58-4f7f-9cbd-07110153b83f; path=/; expires=Tue, 01
+        Jun 2027 18:42:45 GMT; SameSite=Lax; secure
+      Strict-Transport-Security:
+      - max-age=0
+      Vary:
+      - Accept
+      Via:
+      - kong/2.8.4.13-enterprise-edition
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kong-Proxy-Latency:
+      - '2'
+      X-Kong-Request-Id:
+      - 1f1ef33eb60c882440641e5b8ac1300d
+      X-Kong-Upstream-Latency:
+      - '150'
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Ratelimit-Limit-Minute:
+      - '360'
+      X-Ratelimit-Remaining-Minute:
+      - '359'
+      X-Request-Id:
+      - 0f600f0b56594487d0b829e702a6a895
+      X-Runtime:
+      - '0.143889'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Speculation-Rules:
+      - '"/cdn-cgi/speculation"'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 9490da46ac3af633-FOR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"courses":[{"id":2002430,"description":null,"name":"Trees and Arboreous
+        Concerns","heading":"Grow Your Knowledge of Trees and Arboreous Concerns -
+        Learn From the Expert!","is_published":true,"image_url":"https://cdn.filestackcontent.com/HfhcrIRZKEyvND8blEXA"},{"id":2002431,"description":null,"name":"Mushroom
+        Madness","heading":"Unlock the Secrets of Mushroom Foraging with Mushroom
+        Madness","is_published":true,"image_url":"https://cdn.filestackcontent.com/MKdUddC0R9iLDP27yF1L"},{"id":2002436,"description":null,"name":"Herbal
+        Teas \u0026 Other Garden Tinctures","heading":"Brew your own natural remedies
+        with Herbal Teas \u0026amp; Other Garden Tinctures","is_published":true,"image_url":"https://cdn.filestackcontent.com/4PhkBhwMS0q1e4yCkoVO"}],"meta":{"total":3,"page":1,"from":1,"to":3,"per_page":20,"number_of_pages":1}}'
+  recorded_at: Sun, 01 Jun 2025 18:42:45 GMT
+recorded_with: VCR 6.3.1
