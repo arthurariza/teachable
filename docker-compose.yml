@@ -1,9 +1,27 @@
+x-base: &base
+  build:
+    context: .
+    dockerfile: ./Dockerfile
+    args:
+      RUBY_VERSION: '3.4.1'
+  stdin_open: true
+  tty: true
+  volumes:
+    - .:/app
+
 services:
   app:
-    build: .
+    <<: *base
+    command: bin/dev
     ports:
       - '3000:3000'
-    volumes:
-      - .:/usr/src/app
     env_file:
       - .env
+
+  css:
+    <<: *base
+    command: yarn build:css --watch
+
+  js:
+    <<: *base
+    command: yarn build --watch
