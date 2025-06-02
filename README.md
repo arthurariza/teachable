@@ -37,3 +37,10 @@ docker compose exec app rspec
 ```
 docker compose stop
 ```
+
+## Demo:
+
+
+https://github.com/user-attachments/assets/955f5263-6c5f-4054-be1c-ba25d562a61b
+
+
