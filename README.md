@@ -27,6 +27,8 @@ docker compose exec app rails db:prepare
 ```
 ### 6. The server should be running on port 3000
 
+### 7. Import Courses, Users, and Enrollments From The UI
+
 ## How To Run Specs
 ```
 docker compose exec app rspec
